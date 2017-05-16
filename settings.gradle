@@ -1,1 +1,1 @@
-include ':app', ':testplugin', ':testhotfix', ':ZeusPlugin'
+include ':app', ':testplugin', ':testhotfix', ':ZeusPlugin', ':appwrapper', ':plugindemo'

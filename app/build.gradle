@@ -10,7 +10,7 @@ apply from: 'public-xml.gradle'
 
 android {
     compileSdkVersion 23
-    buildToolsVersion '23.0.2'
+    buildToolsVersion '23.0.3'
 
     defaultConfig {
         applicationId "zeus.test"
@@ -31,6 +31,10 @@ android {
      */
     //去掉为了让demo不需要替换aapt就可以运行
     //    aaptOptions.additionalParameters '--PLUG-resoure-proguard', '--PLUG-resoure-id', '0x7f'
+    lintOptions {
+        abortOnError false
+    }
+
 }
 
 dependencies {

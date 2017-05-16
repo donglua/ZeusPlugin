@@ -10,6 +10,8 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/ZeusPlugin" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/appwrapper" />
+            <option value="$PROJECT_DIR$/plugindemo" />
             <option value="$PROJECT_DIR$/testhotfix" />
             <option value="$PROJECT_DIR$/testplugin" />
           </set>
